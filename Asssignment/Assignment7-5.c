@@ -1,5 +1,5 @@
 /*
-1.Write a program which accept N from user and print first 5 multiples of N.
+5.Write a program which accept N from user and print first 5 multiples of N.
 
 Input : 4
 Output : 4  8   12  16  20 

@@ -1,5 +1,5 @@
 /*
-1.Write a program which accept N from user and print all odd numbers up to N.
+4.Write a program which accept N from user and print all odd numbers up to N.
 
 Input : 18
 Output :1   3   5   7   9   11  13  15  17 
