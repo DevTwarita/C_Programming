@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int CountX(char *str)
+{
+    int iCount = 0;
+
+    while (*str != '\0')
+    {
+        if((*str == 97) || (*str == 98) || (*str == 99)||(*str == 100)) //should not use ascii value
+        {
+            iCount++;
+        }
+        str++;
+    }
+
+    return iCount;
+}
+
+int main()
+{
+    char Arr[100] = {'\0'}; //cleaned array
+    int iRet = 0;
+
+    printf("Enter string: \n");
+    scanf("%[^'\n']s",Arr);
+
+    iRet = CountX(Arr);
+
+    printf("Frequency of a b c d is : %d\n", iRet);
+    
+    return EXIT_SUCCESS;
+}
